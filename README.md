@@ -7,11 +7,6 @@
 4. Скачайте дистрибутив [java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) и положите его в директорию `playbook/files/`. 
 Решение:
 
-vagrant@vagrant:~$ sudo docker run --name ubuntu  --expose 22 -it  ubuntu_kaplin:v1
-root@be2f50fc7008:/#
-
-vagrant@vagrant:~$ sudo docker run --name ubuntu2  --expose 22 -it  ubuntu_kaplin:v1
-root@2bdcf0c42b09:/#
 - скачаем дистрибутивы и java на виртуальную машину:
 ```
 PS C:\Users\kapli\homeworks\08-ansible-02-playbook> scp  playbook.7z vagrant@192.168.33.10:/home/vagrant/ansible-lesson0702
